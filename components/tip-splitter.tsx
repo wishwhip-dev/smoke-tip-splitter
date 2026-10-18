@@ -22,6 +22,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { identity } from "@/app/identity";
+import { newId, type Split } from "@/lib/db";
 import { addSplit } from "@/lib/data/splits";
 import { renderShareCard } from "@/lib/share";
 import {
