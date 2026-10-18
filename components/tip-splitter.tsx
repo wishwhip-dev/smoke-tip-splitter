@@ -21,7 +21,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { identity } from "@/app/identity";
 import { addSplit, newId, type Split } from "@/lib/db";
+import { renderShareCard } from "@/lib/share";
 import {
   CURRENCIES,
   TIP_PRESETS,
