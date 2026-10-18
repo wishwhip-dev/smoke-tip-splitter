@@ -265,8 +265,7 @@ function SplitResultCard({
         {extraPennyCount > 0 ? (
           <p className="text-sm text-muted-foreground">
             The total doesn&rsquo;t divide evenly, so the first {extraPennyCount}{" "}
-            {extraPennyCount === 1 ? "person pays" : "people pay"} one{" "}
-            {currency === "¥" ? "yen-unit" : "penny"} more.
+            {extraPennyCount === 1 ? "person pays" : "people pay"} one cent more.
           </p>
         ) : null}
 
