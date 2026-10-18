@@ -6,7 +6,7 @@
  */
 export const identity = {
   name: "SMOKE tip splitter",
-  description: "SMOKE tip splitter: enter the bill amount, the tip percentage and how many people, and see what everyone owes, rounded to the cent.",
+  description: "Split any restaurant bill in seconds: pick a tip, say how many are sharing, and get each person's exact share down to the cent.",
   accent: "#047857",
   initial: "S",
 } as const;
