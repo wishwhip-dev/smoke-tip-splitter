@@ -241,7 +241,7 @@ function SplitResultCard({
         </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col gap-4">
-        <dl className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-3">
           <figure className="rounded-lg border bg-muted/50 p-3">
             <dt className="text-sm text-muted-foreground">Tip amount</dt>
             <dd className="text-2xl font-semibold tabular-nums">
