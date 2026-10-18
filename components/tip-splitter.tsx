@@ -247,6 +247,9 @@ function SplitResultCard({
             <dt className="text-sm text-muted-foreground">Tip amount</dt>
             <dd className="text-2xl font-semibold tabular-nums">
               {formatMoney(tipCents, currency)}
+              <span className="text-base font-normal text-muted-foreground">
+                {" "}({tipPercent}%)
+              </span>
             </dd>
           </figure>
           <figure className="rounded-lg border bg-muted/50 p-3">
