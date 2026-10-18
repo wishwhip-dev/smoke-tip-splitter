@@ -11,7 +11,8 @@ import {
 } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { addSplit, database, deleteSplit, type Split } from "@/lib/db";
+import { database, type Split } from "@/lib/db";
+import { addSplit, deleteSplit } from "@/lib/data/splits";
 import { listSplits } from "@/lib/data/splits";
 import { formatMoney, formatSavedAt } from "@/lib/split";
 import { useStorageStatus, useStoredQuery } from "@/lib/storage/react";
