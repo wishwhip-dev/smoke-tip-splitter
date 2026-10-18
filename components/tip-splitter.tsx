@@ -260,7 +260,7 @@ function SplitResultCard({
               {formatMoney(shareCents[shareCents.length - 1], currency)}
             </dd>
           </figure>
-        </dl>
+        </div>
 
         {extraPennyCount > 0 ? (
           <p className="text-sm text-muted-foreground">
