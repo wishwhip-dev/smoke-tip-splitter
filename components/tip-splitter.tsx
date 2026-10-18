@@ -318,11 +318,9 @@ async function renderShareCardBlob(args: {
   tipPercent: number;
   currency: string;
 }) {
-  const { renderShareCard } = await import("@/lib/share");
-  const { identity } = await import("@/app/identity");
   const each = args.shareCents[args.shareCents.length - 1];
   return renderShareCard({
-    title: `${args.currency}${formatMoney(args.totalCents, "").trim()}`,
+    title: `${args.currency}${formatMoney(args.totalCents, "")}`,
     subtitle: `${args.tipPercent}% tip on ${formatMoney(args.billCents, args.currency)}`,
     lines: [
       `${args.people} ${args.people === 1 ? "person" : "people"} · ${formatMoney(each, args.currency)} each`,
