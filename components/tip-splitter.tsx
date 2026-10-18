@@ -219,7 +219,7 @@ function SplitResultCard({
   currency: string;
   onSave: () => Promise<void>;
 }) {
-  const { tipCents, totalCents, shareCents, extraPennyCount, people, tipPercent, bill } = result;
+  const { tipCents, totalCents, shareCents, extraPennyCount, people, tipPercent } = result;
 
   const shareCard = () =>
     renderShareCardBlob({
